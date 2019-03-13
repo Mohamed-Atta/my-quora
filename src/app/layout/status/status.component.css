@@ -1,0 +1,9 @@
+.borderless {
+    border: 0;
+}
+.center {
+    margin: auto;
+}
+input[type="text"] {
+    font-size: 30px;
+}
