@@ -12,6 +12,7 @@ import { NavBarComponent } from './layout/nav-bar/nav-bar.component';
 import { StatusComponent } from './layout/status/status.component';
 import { NewsFeedComponent } from './layout/news-feed/news-feed.component';
 import { SideBarComponent } from './layout/side-bar/side-bar.component';
+import { QuestionModalComponent } from './layout/modals/question-modal/question-modal.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SideBarComponent } from './layout/side-bar/side-bar.component';
     NavBarComponent,
     StatusComponent,
     NewsFeedComponent,
-    SideBarComponent
+    SideBarComponent,
+    QuestionModalComponent
   ],
   imports: [
     BrowserModule,
