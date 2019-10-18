@@ -13,6 +13,8 @@ import { StatusComponent } from './layout/status/status.component';
 import { NewsFeedComponent } from './layout/news-feed/news-feed.component';
 import { SideBarComponent } from './layout/side-bar/side-bar.component';
 import { QuestionModalComponent } from './layout/modals/question-modal/question-modal.component';
+import { SignInComponent } from './auth/sign-in/sign-in.component';
+import { NotFoundComponent } from './auth/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { QuestionModalComponent } from './layout/modals/question-modal/question-
     StatusComponent,
     NewsFeedComponent,
     SideBarComponent,
-    QuestionModalComponent
+    QuestionModalComponent,
+    SignInComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
